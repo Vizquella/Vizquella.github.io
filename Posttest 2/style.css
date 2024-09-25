@@ -1,0 +1,159 @@
+body{
+    font-family: "Vollkorn", serif;
+    margin: 0;  
+    padding: 0;
+    /* height: 10000px; */
+}
+.nav{
+    width: 100%;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    border-bottom: 2px solid;
+}
+.nav-gambar{
+    width: 100px;
+    height: 65px;
+
+}
+
+.informasi {
+    width: 100%;
+    height: fit-content;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.informasi-container{
+    width: 90%;
+    background-color: rgb(177, 228, 189);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.informasi .informasi-container ul{
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+}
+.informasi .informasi-container ul li{
+    margin: 5px 0;
+}
+
+.pesanan{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.pesanan-container{
+    width: 90%;
+}
+.pesanan-container-makanan{
+    background-color: rgb(177, 228, 189);  
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.pesanan-container-makanan ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pesanan-container-makanan ul li{
+    margin: 5px 0;
+
+ } 
+ .pesanan-container-makanan:has(.estehmanis){
+    margin-top: 10px;
+ }
+
+ .total{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+
+.total-container{
+    width: 90%;
+    background-color: rgb(177, 228, 189);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.total-container-harga ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.metode{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.metode-container{
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(177, 228, 189);
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.metode-container h4{
+    margin: 0;
+}
+.metode-container-pembayaran{  
+    border-radius: 10px;
+}
+.metode-container-pembayaran ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer{
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid #1e293b;
+    gap: 8px;
+    font-size: 15px;
+    background-color: lightgreen;
+}
+footer h3{
+    margin: 0;
+}
+footer button{
+    background-color: rgb(29, 255, 29);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+footer button a{
+    color: black;
+}
