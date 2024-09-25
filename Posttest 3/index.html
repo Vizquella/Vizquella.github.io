@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Motor Trail</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Road+Rage&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Bagus Trail</h1>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tentang">Tentang Saya</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="home">
+        </section>
+        <section class="catalog">
+            <h2>Katalog Motor Trail</h2>
+            <div class="gallery">
+                <div class="box">
+                    <img src="Kawasaki D-Tracker 150 SE Warna Kuning.jpeg" alt="Motor Trail 1">
+                    <h3>Kawasaki D-Tracker</h3>
+                    <button onclick="openPopup('Motor Trail A')">Lihat Detail</button>
+                </div>
+                <div class="box">
+                    <img src="Harga Honda CRF 150L Wilayah Bogor, Ini DP Minimal Dan Skema Kreditnya (Update 2020).jpeg" alt="Motor Trail 2">
+                    <h3>Honda CRF 150L</h3>
+                    <button onclick="openPopup('Motor Trail B')">Lihat Detail</button>
+                </div>
+                <div class="box">
+                    <img src="รุ่นและราคา Yamaha WR155R 2024 ราคาเริ่มต้นที่ 119,000 บาท.jpeg" alt="Motor Trail 2">
+                    <h3>Yamaha WR155R</h3>
+                    <button onclick="openPopup('Motor Trail B')">Lihat Detail</button>
+                <!-- Tambahkan motor lainnya -->
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="tentang" class="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Halo, saya adalah penggemar motor trail yang suka berpetualang. Saya membuat website ini untuk membantu sesama penggemar motor trail mencari informasi terbaru tentang motor trail terbaik.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Katalog Motor Trail. All rights reserved.</p>
+    </footer>
+
+    <!-- Pop-up Box -->
+    <div id="popupBox" class="popup-box">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h3 id="popupTitle">Motor Trail</h3>
+            <p>blabalala</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
