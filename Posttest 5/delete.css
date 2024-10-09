@@ -1,0 +1,73 @@
+body {
+    font-family: "Vollkorn", serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2 {
+    color: #a46435;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.confirmation-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.confirmation-box p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #a46435;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #8b5230;
+}
+
+.back-btn, .delete-btn {
+    background-color: #a46435;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.back-btn:hover, .delete-btn:hover {
+    background-color: #8b5230;
+}
+
+.back-btn {
+    display: inline-block;
+    width: 120px;
+}
+
+.delete-btn {
+    background-color: red;
+    display: inline-block;
+    width: 120px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}

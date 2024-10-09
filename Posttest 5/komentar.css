@@ -1,0 +1,53 @@
+body {
+    padding: 20px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Vollkorn", serif;
+}
+
+.komentar {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.komentar h2 {
+    color: black;
+    text-align: center;
+}
+
+.form-komentar {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-komentar label {
+    margin-bottom: 5px;
+    color: black;
+}
+
+.form-komentar input, .form-komentar textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-komentar button {
+    background-color: #a46435;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-komentar button:hover {
+    background-color: #8b5230;
+}
