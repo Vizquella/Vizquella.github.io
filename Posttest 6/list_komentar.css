@@ -1,0 +1,67 @@
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+.table-komentar {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-komentar th, .table-komentar td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-komentar th {
+    background-color: #a46435;
+    color: white;
+}
+
+.table-komentar tr:hover {
+    background-color: #f2f2f2;
+}
+
+.table-komentar a {
+    color: #a46435;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.table-komentar a:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #a46435;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.btn-small {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.btn-small:hover {
+    background-color: #555;
+}
