@@ -1,0 +1,115 @@
+/* Umum */
+body {
+    font-family: 'Vollkorn', serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 500px; 
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+form input[type="text"], 
+form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus, 
+form textarea:focus {
+    border-color: #a46435;
+    outline: none;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+form input[type="submit"], 
+.back-btn {
+    background-color: #a46435;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+form input[type="submit"]:hover, 
+.back-btn:hover {
+    background-color: #6d3c21;
+}
+
+.success-message, 
+.error-message {
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 10px;
+        max-width: 90%; /* Mengatur lebar maksimal untuk perangkat kecil */
+    }
+
+    form input[type="text"], 
+    form textarea {
+        font-size: 14px;
+    }
+
+    form input[type="submit"], 
+    .back-btn {
+        font-size: 14px;
+    }
+}
